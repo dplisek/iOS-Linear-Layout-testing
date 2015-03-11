@@ -12,18 +12,7 @@
 		B49310D21AB074D50097E097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49310D01AB074D50097E097 /* Main.storyboard */; };
 		B49310D41AB074D50097E097 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49310D31AB074D50097E097 /* Images.xcassets */; };
 		B49310D71AB074D50097E097 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49310D51AB074D50097E097 /* LaunchScreen.xib */; };
-		B49310E31AB074D50097E097 /* LinearLayoutTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49310E21AB074D50097E097 /* LinearLayoutTestingTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B49310DD1AB074D50097E097 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B49310BF1AB074D50097E097 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B49310C61AB074D50097E097;
-			remoteInfo = LinearLayoutTesting;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B49310C71AB074D50097E097 /* LinearLayoutTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinearLayoutTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,10 @@
 		B49310D11AB074D50097E097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B49310D31AB074D50097E097 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B49310D61AB074D50097E097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B49310DC1AB074D50097E097 /* LinearLayoutTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearLayoutTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B49310E11AB074D50097E097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B49310E21AB074D50097E097 /* LinearLayoutTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearLayoutTestingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B49310C41AB074D50097E097 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B49310D91AB074D50097E097 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				B49310C91AB074D50097E097 /* LinearLayoutTesting */,
-				B49310DF1AB074D50097E097 /* LinearLayoutTestingTests */,
 				B49310C81AB074D50097E097 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				B49310C71AB074D50097E097 /* LinearLayoutTesting.app */,
-				B49310DC1AB074D50097E097 /* LinearLayoutTestingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,23 +72,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B49310DF1AB074D50097E097 /* LinearLayoutTestingTests */ = {
-			isa = PBXGroup;
-			children = (
-				B49310E21AB074D50097E097 /* LinearLayoutTestingTests.swift */,
-				B49310E01AB074D50097E097 /* Supporting Files */,
-			);
-			path = LinearLayoutTestingTests;
-			sourceTree = "<group>";
-		};
-		B49310E01AB074D50097E097 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B49310E11AB074D50097E097 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,24 +92,6 @@
 			productReference = B49310C71AB074D50097E097 /* LinearLayoutTesting.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B49310DB1AB074D50097E097 /* LinearLayoutTestingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B49310E91AB074D50097E097 /* Build configuration list for PBXNativeTarget "LinearLayoutTestingTests" */;
-			buildPhases = (
-				B49310D81AB074D50097E097 /* Sources */,
-				B49310D91AB074D50097E097 /* Frameworks */,
-				B49310DA1AB074D50097E097 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B49310DE1AB074D50097E097 /* PBXTargetDependency */,
-			);
-			name = LinearLayoutTestingTests;
-			productName = LinearLayoutTestingTests;
-			productReference = B49310DC1AB074D50097E097 /* LinearLayoutTestingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +103,6 @@
 				TargetAttributes = {
 					B49310C61AB074D50097E097 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					B49310DB1AB074D50097E097 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = B49310C61AB074D50097E097;
 					};
 				};
 			};
@@ -182,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				B49310C61AB074D50097E097 /* LinearLayoutTesting */,
-				B49310DB1AB074D50097E097 /* LinearLayoutTestingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B49310DA1AB074D50097E097 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,23 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B49310D81AB074D50097E097 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B49310E31AB074D50097E097 /* LinearLayoutTestingTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B49310DE1AB074D50097E097 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B49310C61AB074D50097E097 /* LinearLayoutTesting */;
-			targetProxy = B49310DD1AB074D50097E097 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B49310D01AB074D50097E097 /* Main.storyboard */ = {
@@ -338,9 +252,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dominik Plisek (PDLU7HZ52U)";
 				INFOPLIST_FILE = LinearLayoutTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c7a1d266-f4da-4371-8cb8-7070911ddfda";
 			};
 			name = Debug;
 		};
@@ -348,43 +264,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dominik Plisek (PDLU7HZ52U)";
 				INFOPLIST_FILE = LinearLayoutTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B49310EA1AB074D50097E097 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LinearLayoutTestingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinearLayoutTesting.app/LinearLayoutTesting";
-			};
-			name = Debug;
-		};
-		B49310EB1AB074D50097E097 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LinearLayoutTestingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinearLayoutTesting.app/LinearLayoutTesting";
+				PROVISIONING_PROFILE = "c7a1d266-f4da-4371-8cb8-7070911ddfda";
 			};
 			name = Release;
 		};
@@ -405,14 +289,6 @@
 			buildConfigurations = (
 				B49310E71AB074D50097E097 /* Debug */,
 				B49310E81AB074D50097E097 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		B49310E91AB074D50097E097 /* Build configuration list for PBXNativeTarget "LinearLayoutTestingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B49310EA1AB074D50097E097 /* Debug */,
-				B49310EB1AB074D50097E097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
