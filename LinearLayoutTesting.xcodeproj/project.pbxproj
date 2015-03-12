@@ -12,6 +12,7 @@
 		B49310D21AB074D50097E097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49310D01AB074D50097E097 /* Main.storyboard */; };
 		B49310D41AB074D50097E097 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49310D31AB074D50097E097 /* Images.xcassets */; };
 		B49310D71AB074D50097E097 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49310D51AB074D50097E097 /* LaunchScreen.xib */; };
+		B49310EE1AB076D60097E097 /* LinearLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49310ED1AB076D60097E097 /* LinearLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B49310D11AB074D50097E097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B49310D31AB074D50097E097 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B49310D61AB074D50097E097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B49310ED1AB076D60097E097 /* LinearLayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B49310C91AB074D50097E097 /* LinearLayoutTesting */ = {
 			isa = PBXGroup;
 			children = (
+				B49310EC1AB076950097E097 /* Linear Layout */,
 				B49310CC1AB074D50097E097 /* AppDelegate.swift */,
 				B49310CE1AB074D50097E097 /* ViewController.swift */,
 				B49310D01AB074D50097E097 /* Main.storyboard */,
@@ -70,6 +73,14 @@
 				B49310CB1AB074D50097E097 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B49310EC1AB076950097E097 /* Linear Layout */ = {
+			isa = PBXGroup;
+			children = (
+				B49310ED1AB076D60097E097 /* LinearLayoutView.swift */,
+			);
+			path = "Linear Layout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49310EE1AB076D60097E097 /* LinearLayoutView.swift in Sources */,
 				B49310CF1AB074D50097E097 /* ViewController.swift in Sources */,
 				B49310CD1AB074D50097E097 /* AppDelegate.swift in Sources */,
 			);
